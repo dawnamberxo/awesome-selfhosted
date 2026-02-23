@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "name": "Nudge",
+    "tone": "Gentle, Non-judgmental, Supportive, Clear",
+    "metaphor": "A fresh start; A helping hand",
+    "target_audience": "Neurodivergent individuals (ADHD, Autism) struggling with executive dysfunction",
+    "mission": "To turn the overwhelming mountain of mess into a series of tiny, celebrate-able molehills."
+  },
+  "design_principles": [
+    "Breathing Room: 3x more whitespace than standard apps.",
+    "One Thing at a Time: Never show the whole list unless asked. Focus on the *next* step.",
+    "Celebration of Small Wins: Micro-interactions for every completed task.",
+    "Physicality: Elements should feel tactile (cards, sorting bins) to ground the user.",
+    "Nature-Inspired: Colors and textures that soothe the nervous system."
+  ],
+  "typography": {
+    "headings": {
+      "family": "Fraunces, serif",
+      "weights": ["400", "600"],
+      "usage": "Use for all major section headers and encouragement messages. The soft serif adds warmth and humanity.",
+      "letter_spacing": "-0.02em"
+    },
+    "body": {
+      "family": "Manrope, sans-serif",
+      "weights": ["400", "500", "700"],
+      "usage": "Use for all UI elements, instructions, and buttons. Highly legible geometric sans.",
+      "letter_spacing": "0.01em"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl leading-tight font-semibold",
+      "h2": "text-3xl md:text-4xl leading-tight font-medium",
+      "h3": "text-2xl md:text-3xl leading-snug font-medium",
+      "body-lg": "text-lg md:text-xl leading-relaxed",
+      "body-base": "text-base leading-relaxed",
+      "caption": "text-sm uppercase tracking-widest opacity-70"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "main": "#7FA898",
+        "light": "#A8BBA3",
+        "dark": "#5D8072",
+        "foreground": "#FFFFFF",
+        "name": "Sage Sanctuary"
+      },
+      "secondary": {
+        "main": "#E09F7D",
+        "light": "#E8B49A",
+        "dark": "#C68564",
+        "foreground": "#FFFFFF",
+        "name": "Warm Clay"
+      },
+      "neutral": {
+        "background": "#FDFCF8",
+        "surface": "#FFFFFF",
+        "border": "#E5E0D8",
+        "text_primary": "#2D3A3A",
+        "text_secondary": "#5C6666"
+      },
+      "accent": {
+        "gamification": "#F4D35E",
+        "success": "#7FA898",
+        "destructive": "#E07D7D",
+        "info": "#7D9FE0"
+      }
+    },
+    "gradients": {
+      "subtle_mesh": "radial-gradient(at 0% 0%, rgba(127, 168, 152, 0.15) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(224, 159, 125, 0.1) 0px, transparent 50%)"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-16 md:py-24",
+    "component_gap": "gap-6 md:gap-8",
+    "border_radius": {
+      "card": "rounded-3xl",
+      "button": "rounded-full",
+      "input": "rounded-xl"
+    },
+    "grid_strategy": "Mobile-first single column for focus. Masonry/Bento on desktop for 'Analysis' view only."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#7FA898] text-white hover:bg-[#5D8072] rounded-full px-8 py-4 text-lg font-medium transition-all shadow-md hover:shadow-lg active:scale-95",
+      "secondary": "bg-[#FDFCF8] border-2 border-[#E5E0D8] text-[#2D3A3A] hover:border-[#7FA898] rounded-full px-8 py-4 text-lg font-medium transition-all",
+      "floating": "fixed bottom-8 right-8 w-16 h-16 bg-[#E09F7D] text-white rounded-full shadow-xl flex items-center justify-center transition-transform hover:scale-110"
+    },
+    "cards": {
+      "task": "bg-white rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-[#E5E0D8]/50 hover:border-[#7FA898]/30 transition-colors",
+      "analysis": "bg-[#FDFCF8] rounded-2xl p-6 border border-[#E5E0D8]"
+    },
+    "inputs": {
+      "default": "bg-white border border-[#E5E0D8] rounded-xl px-4 py-3 text-[#2D3A3A] focus:ring-2 focus:ring-[#7FA898] focus:border-transparent outline-none transition-all"
+    },
+    "navigation": {
+      "style": "Minimal floating dock or simple top bar. Avoid complex sidebars."
+    }
+  },
+  "visual_assets": {
+    "image_style": "Natural light, soft focus, organized but lived-in. No clinical sterility.",
+    "urls": {
+      "hero_living_room": "https://images.unsplash.com/photo-1631510390389-c1e4fb20ff31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHw0fHx0aWR5JTIwcGVhY2VmdWwlMjBsaXZpbmclMjByb29tJTIwbmF0dXJhbCUyMGxpZ2h0fGVufDB8fHx8MTc3MTg5MDQ2Nnww&ixlib=rb-4.1.0&q=85",
+      "organized_desk": "https://images.pexels.com/photos/19304050/pexels-photo-19304050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "messy_room_before": "https://images.unsplash.com/photo-1725278484721-b20373781f43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxtZXNzeSUyMGNsdXR0ZXIlMjByb29tJTIwYmVmb3JlJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzcxODkwNDY5fDA&ixlib=rb-4.1.0&q=85",
+      "sorting_boxes": "https://images.pexels.com/photos/8581372/pexels-photo-8581372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    "icons": {
+      "library": "phosphor-icons (Duotone or Fill)",
+      "usage": "Use 'Duotone' weight for a softer, illustrated feel. 'Fill' for active states."
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure all text meets WCAG AA (4.5:1). Dark Green (#2D3A3A) on Off-White (#FDFCF8) is 13:1.",
+    "motion": "Respect prefers-reduced-motion. Avoid rapid flashing. Transitions should be slow and smooth (0.3s - 0.5s).",
+    "screen_readers": "All images must have alt text. Sorting buttons must have aria-labels."
+  },
+  "motion_guidelines": {
+    "micro_interactions": "When a task is checked, play a subtle 'pop' animation and show a confetti burst (use canvas-confetti).",
+    "page_transitions": "Slide up for new contexts (like opening the camera), fade in for steps.",
+    "loading": "Breathing animation (scale 0.95 <-> 1.05) rather than a frantic spinner."
+  },
+  "instructions_to_main_agent": [
+    "INSTALLATION: Run `npm install @fontsource/fraunces @fontsource/manrope @phosphor-icons/react canvas-confetti framer-motion clsx tailwind-merge`.",
+    "SETUP: Configure Tailwind to use the 'Sage Sanctuary' palette.",
+    "FONTS: Import Fraunces and Manrope in the root layout.",
+    "COMPONENT OVERRIDE: Modify Shadcn Card to be `rounded-3xl` and `shadow-soft` by default.",
+    "CRITICAL: The 'Analysis' page should not look like a spreadsheet. It should look like a supportive report card with 'You can do this' messaging.",
+    "SORTING FLOW: Use a Tinder-like card stack or large distinct tap zones for Keep/Donate/Sell. Do not use small dropdowns.",
+    "VOICE: Error messages should not say 'Error'. They should say 'Oops, let's try that again'.",
+    "Use the provided image URLs for the landing page and demo states."
+  ]
+}
