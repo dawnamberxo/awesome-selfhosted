@@ -77,6 +77,7 @@
 
 - [Chatwoot](https://www.chatwoot.com) - Customer communication platform (alternative to Intercom and Zendesk). ([Source Code](https://github.com/chatwoot/chatwoot)) `⊘ Proprietary` `Ruby/Docker/K8S`
 - [Groupboard](https://www.groupboard.com/products/) - Online whiteboard, audio/video conferencing, screen sharing, shared code editing and optional session recording/playback. `⊘ Proprietary` `Unknown`
+- [Mattermost](https://mattermost.com/) - Platform for secure collaboration across the entire software development lifecycle, can be integrated with Gitlab (alternative to Slack). ([Source Code](https://github.com/mattermost/mattermost)) `⊘ Proprietary` `Go/Docker/K8S`
 - [PrivMX WebMail](https://privmx.com) - Alternative private mail system - web-based, end-to-end encrypted by design, self-hosted, decentralized, uses independent PKI. Easy to install and administrate, freeware, open-source. `⊘ Proprietary` `PHP`
 - [Virola Messenger](https://virola.io/) - Instant messaging and collaboration tool with private and group chat rooms, continuous voice and video meetings, files sharing, issue tracking with integrated task board (alternative to Slack). `⊘ Proprietary` `C++`
 - [WorkAdventure](https://workadventu.re) - Virtual office / virtual conference application presented as a 16-bit RPG video game. ([Demo](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [Source Code](https://github.com/workadventure/workadventure)) `AGPL-3.0/Commons-Clause` `Docker`
@@ -180,7 +181,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [LobeHub](https://www.lobehub.com) - Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking. ([Demo](https://www.lobechat.com), [Source Code](https://github.com/lobehub/lobe-chat), [Clients](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
+- [LobeHub](https://www.lobehub.com) - Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking. ([Demo](https://www.lobechat.com), [Source Code](https://github.com/lobehub/lobehub), [Clients](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
 
 
 ### Knowledge Management Tools
@@ -316,7 +317,7 @@
 - [BrowserStack Automate TurboScale](https://www.browserstack.com/automate-turboscale) - Scalable browser automation grid on your cloud (AWS, GCP and Azure) supporting Selenium and Playwright. `⊘ Proprietary` `Docker`
 - [Grai](https://www.grai.io) - Automated integration testing. Uses data lineage to statically analyze the impact of a data change across your entire data stack. ([Source Code](https://www.github.com/grai-io/grai-core)) `Elastic-2.0` `Docker`
 - [Moon](https://aerokube.com/moon/) - Efficient Selenium protocol implementation running everything in Kubernetes or Openshift. `⊘ Proprietary` `Go`
-- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - Powerful error tracking platform with wide language support and a robust API. ([Source Code](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python/Django`
+- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - Powerful error tracking platform with wide language support and a robust API. ([Source Code](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python`
 
 
 ### Ticketing
